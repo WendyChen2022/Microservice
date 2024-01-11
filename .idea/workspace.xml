@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b856501-0102-4952-8eaa-8eb4f4983376" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/src/main/java/com/example/amazon/AmazonServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/src/main/java/com/example/amazon/util/S3Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-amazon-server/src/test/java/com/example/amazon/AmazonServerApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common-db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/constat/DemoConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/dto/AccessControlDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/dto/ProjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/exception/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/model/SysProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/model/SysRoleAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/model/SysUserProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/util/BcryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/example/common/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/java/com/example/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/test/java/com/example/eureka/EurekaServerApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/main/java/com/example/gateway/GatewayServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/main/java/com/example/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/main/java/com/example/gateway/filter/UrlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/main/java/com/example/gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-gateway-server/src/test/java/com/example/gateway/GatewayServerApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/IamServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/base/IamExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/controller/SysProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/dao/SysProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/dao/SysRoleAuthMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/dao/SysUserProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/service/SysProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-iam/src/test/java/com/example/iam/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/src/main/java/com/example/web/WebApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/src/main/java/com/example/web/iam/ProjectFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/src/main/java/com/example/web/iam/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-web-api/src/test/java/com/example/web/WebApiApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Library\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Developer Soft\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YAz0r3cip5LGF5pc1qjKRpeqE1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/testccccode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "0040a2ece911feaae25569eb5d3b19b4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.IamServerApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IamServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-iam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.iam.IamServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.iam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.IamServerApplication" />
+        <item itemvalue="Spring Boot.GatewayServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b856501-0102-4952-8eaa-8eb4f4983376" name="Changes" comment="" />
+      <created>1699982951659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699982951659</updated>
+      <workItem from="1699982952687" duration="4620000" />
+      <workItem from="1699989483254" duration="2289000" />
+      <workItem from="1700012267836" duration="1913000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/controller/SysProjectController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/service/SysProjectService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-iam/src/main/java/com/example/iam/controller/SysUserController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

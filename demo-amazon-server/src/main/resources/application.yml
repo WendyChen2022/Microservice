@@ -1,0 +1,36 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: amazon-server
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/iam?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka
+  instance:
+    hostname: localhost
+
+s3:
+  storage:
+    accessKeyId: minioadmin01
+    secretAccessKey: minioadmin01
+    endpoint: http://192.168.2.101:9090
+    bucketName: test
+
+minio:
+  url: http://127.0.0.1:9000
+  bucket: mytest  # bucket name
+  readUrl: http://127.0.0.1:9000
+  accessKey: xxxxxxxxxxxx
+  secretKey: xxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,33 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: iam-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/iam?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+feign:
+  hystrix:
+    enabled: true
+
+# MyBatis-Plus
+mybatis-plus:
+  goglobal-config:
+    banner: true
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.common.model.user
+
+# Mapper
+mapper:
+  mappers:
+    - tk.mybatis.mapper.common.Mapper
+  not-empty: false
